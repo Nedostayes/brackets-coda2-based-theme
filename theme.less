@@ -1,0 +1,175 @@
+@background: #1d1f21;
+@foreground: #ddd;
+
+//CSS html
+
+//<html></html>
+.cm-m-xml.cm-tag{
+    color: #F6464E;
+}
+
+//for example "utf-8"
+.cm-m-xml.cm-string{
+    color: #EDBE5E;
+}
+
+//Comments
+.cm-m-xml.cm-comment{
+    color: #949EA4;
+}
+
+//for example charset
+.cm-m-xml.cm-attribute{
+    color: #4ED045;
+}
+//Link color
+.cm-m-xml.cm-link{
+    color:red;
+}
+//<!DOCTYPE html>
+.cm-m-xml.cm-meta{
+    color: #C2C6C7;
+}
+
+//CSS css
+
+//for example #test
+.cm-m-css.cm-builtin{
+    color: #FFFFFF;
+}
+
+//@something with @
+.cm-m-css.cm-variable-2 {
+    color: red; 
+}
+
+
+
+
+//CSS property (color, font-family)
+.cm-m-css.cm-property{
+    color: #55E746;
+}
+
+//for example colorcode #134255
+.cm-m-css.cm-atom{
+    color: #7D69C1;
+}
+
+
+//for example color:"red";
+.cm-m-css.cm-keyword{
+    color: #75CFE1;
+}
+
+//css codes bsp .test
+.cm-m-css.cm-qualifier{
+    color: #F8F8F2;
+}
+
+
+
+//General CSS
+
+.CodeMirror-gutters{
+    background-color: black;
+}
+
+.CodeMirror-linenumber{
+    color: white;
+}
+
+.CodeMirror-selected{
+    //Text Highlighting
+    background-color: #025CA7;
+}
+
+.CodeMirror-cursor{
+    //the cursor
+    border-left: 1px solid white;
+}
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag{
+    background: #76D0E2 !important;
+    color: black !important;
+    font-weight: bold;
+    border-bottom: 1px solid red !important;
+}
+
+.CodeMirror-foldgutter-open{
+    color: white;
+}
+
+.CodeMirror-foldgutter-folded{
+    color: white;
+}
+
+.CodeMirror-foldmarker{
+    border-color: red;
+    background-color: red;
+    color: red;
+}
+
+.CodeMirror-searching{
+    background-color: red;
+    &.searching-current-match{
+        background-color: red;
+    }
+}
+
+//line spacing
+.CodeMirror{
+    line-height: 1.2;
+}
+
+//Background-Color
+.CodeMirror-scroll{
+    background-color: #162637;
+}
+
+
+
+//CSS Code for javascript
+
+//Javascript variables (document, localStorage, parseInt...)
+.cm-m-javascript.cm-variable{
+    color: #F4F5DF;
+}
+
+//Javascript String "string2"
+.cm-m-javascript.cm-string{
+    color: #FCC961;
+}
+
+//Javascript Operator = - + ...
+.cm-m-javascript.cm-operator{
+    color: #A7AEB5;
+}
+
+//Javascript property (getElementbyId, setItem...)
+.cm-property{
+    color: #79D5E7;
+}
+
+//Javascript function deklaration (function "add"...)
+.cm-m-javascript.cm-def{
+    color: #55E746;
+}
+
+//Javascript Numbers 0 1 2 3
+.cm-m-javascript.cm-number{
+    color: #7A66BB;
+}
+
+//Javascript Keywords (var, function..)
+.cm-m-javascript.cm-keyword{
+    color: #F5464E;
+}
+
+.cm-m-javascript.cm-comment{
+    color: #9099A0;
+}
+
+.cm-m-javascript.cm{
+    color: red;
+}

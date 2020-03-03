@@ -1,0 +1,19 @@
+{
+    "name": "brackets-coda2-based-theme",
+    "title": "Brackets 'Panic Palette' from Coda 2 based Theme",
+    "description": "Recreation of the nice Coda 2 Theme",
+    "homepage": "https://github.com/nedostayes/brackets-coda2-based-theme",
+    "version": "1.0.1",
+    "author": {
+        "name": "Nedostayes",
+        "url": "https://github.com/Nedostayes"
+    },
+    "license": "MIT",
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme", "coda2", "based", "panicpalette"
+    ]
+}
